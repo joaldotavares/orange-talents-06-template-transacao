@@ -20,7 +20,7 @@ import br.com.zup.transacao.repository.CartaoRepository;
 import br.com.zup.transacao.repository.TransacaoRepository;
 
 @RestController
-@RequestMapping("/cartoes")
+@RequestMapping("/transacao")
 public class TransacaoController {
 
 	private final Logger logger = LoggerFactory.getLogger(TransacaoController.class);
